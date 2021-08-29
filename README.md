@@ -103,6 +103,8 @@ Three different techniques were used to optimize the model and get better accura
     
       ![image](https://user-images.githubusercontent.com/82583576/131261335-03af4473-e2fa-418a-9b10-fd182471b8ef.png)
 
+      ![image](https://user-images.githubusercontent.com/82583576/131261359-46508d8f-dc23-4516-a7d1-335d0c298854.png)
+
       
       
       
