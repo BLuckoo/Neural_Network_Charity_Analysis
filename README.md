@@ -101,6 +101,8 @@ Three different techniques were used to optimize the model and get better accura
     
 3.  Kept the original number of hidden layers to two, but increased the number of neurons from 80 to 100 in the 1st layer and from 30 to 40 in the 2nd layer. The activation function used for the hidden input layers was switched back to the "relu" function.  
     
+      ![image](https://user-images.githubusercontent.com/82583576/131261335-03af4473-e2fa-418a-9b10-fd182471b8ef.png)
+
       
       
       
