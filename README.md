@@ -116,31 +116,11 @@ Three different techniques were used to optimize the model and get better accura
       </p>
       
       
-4.
 
 ## Summary
 
-The deep learning neural network model did not reach the target of 75% accuracy. Considering that this target level is average, the model is not outperforming.
+The deep learning neural network model did not reach the target of 75% accuracy. The performance of this model does not meet the requirements.
 
 This is a binary classification situation. A supervised machine learning model, such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output. These results can then be compared to the Deep Learning model to evaluate which model is better for the analyis.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***Resources***
-*Data Source: charity_data.csv
-Software: Python 3.7.7, Anaconda Navigator 1.9.12, Conda 4.8.4, Jupyter Notebook 6.0.3*
 
