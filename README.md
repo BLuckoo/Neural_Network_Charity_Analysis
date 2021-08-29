@@ -59,8 +59,9 @@ The following methods were used for the analysis:
   <p align="center">  
   <image src="https://user-images.githubusercontent.com/82583576/131259618-b0198b60-2a6e-4680-b0d4-569133c58ce6.png"
   </p>
+<br>
     
-**Model Optimization**
+## Model Optimization
 
 To increase the performance of the model:
 
@@ -100,6 +101,7 @@ Three different techniques were used to optimize the model and get better accura
     </p>  
     
 3.  Kept the original number of hidden layers to two, but increased the number of neurons from 80 to 100 in the 1st layer and from 30 to 40 in the 2nd layer. The activation function used for the hidden input layers was switched back to the "relu" function.  
+      For this model the loss came to 10.98 and the accuracy to 59.98%.
     
       <p align="center">
       <image src="https://user-images.githubusercontent.com/82583576/131261335-03af4473-e2fa-418a-9b10-fd182471b8ef.png"
@@ -109,9 +111,9 @@ Three different techniques were used to optimize the model and get better accura
       <image src="https://user-images.githubusercontent.com/82583576/131261359-46508d8f-dc23-4516-a7d1-335d0c298854.png"
       </p>
              
-             
-      ![image](https://user-images.githubusercontent.com/82583576/131261384-961bc799-9d10-4a61-b11c-5a9564598b67.png)
-
+      <p align="center">       
+      <image src="https://user-images.githubusercontent.com/82583576/131261384-961bc799-9d10-4a61-b11c-5a9564598b67.png"
+      </p>
       
       
 4.
