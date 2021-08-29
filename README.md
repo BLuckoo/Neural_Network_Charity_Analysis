@@ -69,6 +69,9 @@ To increase the performance of the model:
 Three different techniques were used to optimize the model and get better accuracy.
 
 1.  Increased the number of hidden layers from two to four.
+    
+    ![image](https://user-images.githubusercontent.com/82583576/131260720-1bd39988-38ed-4fb7-afb6-48a33ae2f7d2.png)
+
 
 2.  Kept the original number of hidden layers to two, but changed activation function used for the hidden input layers to the "sigmoid" function.
     
