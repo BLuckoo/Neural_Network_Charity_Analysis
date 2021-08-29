@@ -41,7 +41,10 @@ The following methods were used for the analysis:
 - The output layer is made of a unique neuron as it is a binary classification.
 - To speed up the training process, the activation function ReLU is used for the hidden layers. As the output is a binary classification, Sigmoid is used on the output layer.
 - For the compilation, the optimizer is ***"adam"*** and the loss function is ***"binary_crossentropy"***.
-- The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
+- The model accuracy target is at least 75%. 
+  However, the model's highest accuracy reached is at 70.44% with a loss of 1.30.
+   
+  This is not a satisfying performance to help predict the outcome of the charity donations.
  
   <p align="center"> 
   <image src="https://user-images.githubusercontent.com/82583576/131259434-fe4d491e-a632-4fa0-876a-18a6be29a856.png"
