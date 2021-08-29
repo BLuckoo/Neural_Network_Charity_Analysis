@@ -53,6 +53,10 @@ The following methods were used for the analysis:
   <image src="https://user-images.githubusercontent.com/82583576/131259537-96cea073-17ea-4383-9b21-d56fac228601.png"
   </p>            
 
+  <p align="center">  
+  <image src="https://user-images.githubusercontent.com/82583576/131259618-b0198b60-2a6e-4680-b0d4-569133c58ce6.png"
+  </p>
+    
 **Model Optimization**
 
 To increase the performance of the model:
