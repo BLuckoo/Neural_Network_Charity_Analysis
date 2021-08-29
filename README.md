@@ -23,14 +23,27 @@ The following methods were used for the analysis:
 
 **Compiling, Training, and Evaluating the Model**
 
-- This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively.
+
 - The input data has 43 features and 25,724 samples.
+
+<p align="center">
+<image src="https://user-images.githubusercontent.com/82583576/131258310-e521342e-4bbb-4c34-8368-cafad16a63f6.png"
+</p>
+
+- This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively.
+  
+ <p align="center"> 
+ <image src="https://user-images.githubusercontent.com/82583576/131258458-dc2a889a-85ed-4d38-b6f3-4b4f198487a8.png"
+ </p>
+ 
+  
+  
 - The output layer is made of a unique neuron as it is a binary classification.
-- To speed up the training process, we are using the activation function ReLU for the hidden layers. As our output is a binary classification, Sigmoid is used on the output layer.
-- For the compilation, the optimizer is adam and the loss function is binary_crossentropy.
+- To speed up the training process, the activation function ReLU is used for the hidden layers. As the output is a binary classification, Sigmoid is used on the output layer.
+- For the compilation, the optimizer is ***"adam"*** and the loss function is ***"binary_crossentropy"***.
 - The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
 
-** Model Optimization**
+**Model Optimization**
 
 To increase the performance of the model:
 
