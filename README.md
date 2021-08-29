@@ -121,6 +121,6 @@ Three different techniques were used to optimize the model and get better accura
 
 The deep learning neural network model did not reach the target of 75% accuracy. The performance of this model does not meet the requirements.
 
-This is a binary classification situation. A supervised machine learning model, such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output. These results can then be compared to the Deep Learning model to evaluate which model is better for the analyis.
+This is a binary classification situation. A supervised machine learning model, such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output. These results can then be compared to the Deep Learning model to evaluate which model is better for the analysis.
 
 
