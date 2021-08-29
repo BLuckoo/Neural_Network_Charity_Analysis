@@ -51,7 +51,7 @@ The following methods were used for the analysis:
   </p>
     
     
-    
+  However, as illustrated below, the best balance of loss and accuracy is achieved at Epoch 37, loss of 0.63 and accuracy of 65.3%  
   <p align="center">
   <image src="https://user-images.githubusercontent.com/82583576/131259537-96cea073-17ea-4383-9b21-d56fac228601.png"
   </p>            
@@ -65,8 +65,16 @@ The following methods were used for the analysis:
 To increase the performance of the model:
 
 - Bucketing was appied to the feature ASK_AMT and organized the different values by intervals.
-- Increased the number of neurons on one of the hidden layers, then we used a model with three hidden layers.
-- A different activation function (tanh) but none of these steps helped improve the model's performance.
+    
+Three different techniques were used to optimize the model and get better accuracy.
+
+1.  Increased the number of hidden layers from two to four.
+
+2.  Kept the original number of hidden layers to two, but changed activation function used for the hidden input layers to the "sigmoid" function.
+    
+3.  Kept the original number of hidden layers to two, but increased the number of neurons from 80 to 100 in the 1st layer and from 30 to 40 in the 2nd layer. The activation function used for the hidden input layers was switched back to the "relu" function.  
+    
+4.
 
 ## Summary
 
