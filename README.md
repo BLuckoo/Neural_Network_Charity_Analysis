@@ -72,7 +72,10 @@ Three different techniques were used to optimize the model and get better accura
     
     ![image](https://user-images.githubusercontent.com/82583576/131260720-1bd39988-38ed-4fb7-afb6-48a33ae2f7d2.png)
 
+    ![image](https://user-images.githubusercontent.com/82583576/131260788-aab79746-76b0-4503-b789-4fe084fbd770.png)
 
+    
+    
 2.  Kept the original number of hidden layers to two, but changed activation function used for the hidden input layers to the "sigmoid" function.
     
 3.  Kept the original number of hidden layers to two, but increased the number of neurons from 80 to 100 in the 1st layer and from 30 to 40 in the 2nd layer. The activation function used for the hidden input layers was switched back to the "relu" function.  
