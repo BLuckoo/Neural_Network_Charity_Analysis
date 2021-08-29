@@ -50,7 +50,7 @@ The following methods were used for the analysis:
     
     
   <p align="center">
-  <image src="
+  <image src="https://user-images.githubusercontent.com/82583576/131259537-96cea073-17ea-4383-9b21-d56fac228601.png"
   </p>            
 
 **Model Optimization**
