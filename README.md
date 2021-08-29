@@ -42,6 +42,16 @@ The following methods were used for the analysis:
 - To speed up the training process, the activation function ReLU is used for the hidden layers. As the output is a binary classification, Sigmoid is used on the output layer.
 - For the compilation, the optimizer is ***"adam"*** and the loss function is ***"binary_crossentropy"***.
 - The model accuracy is under 75%. This is not a satisfying performance to help predict the outcome of the charity donations.
+ 
+  <p align="center"> 
+  <image src="https://user-images.githubusercontent.com/82583576/131259434-fe4d491e-a632-4fa0-876a-18a6be29a856.png"
+  </p>
+    
+    
+    
+  <p align="center">
+  <image src="
+  </p>            
 
 **Model Optimization**
 
