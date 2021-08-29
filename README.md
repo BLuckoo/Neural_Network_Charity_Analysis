@@ -69,14 +69,18 @@ To increase the performance of the model:
 Three different techniques were used to optimize the model and get better accuracy.
 
 1.  Increased the number of hidden layers from two to four.
-    
+    This attempt brought down the accuracy to 69.48% and the loss increased to 12.21
     
     <p align="center">
     <image src="https://user-images.githubusercontent.com/82583576/131260720-1bd39988-38ed-4fb7-afb6-48a33ae2f7d2.png">
-
+    </p>
+      
+    <p align="center">  
     <image src="https://user-images.githubusercontent.com/82583576/131260788-aab79746-76b0-4503-b789-4fe084fbd770.png">
-
-    <image src="https://user-images.githubusercontent.com/82583576/131260835-c76ffc01-b6cf-4348-b766-00f8064fb618.png"
+    </p>
+      
+    <p align="center">  
+    <image src="https://user-images.githubusercontent.com/82583576/131260835-c76ffc01-b6cf-4348-b766-00f8064fb618.png">
     </p>
      
     
