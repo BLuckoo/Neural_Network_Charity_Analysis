@@ -115,7 +115,16 @@ Three different techniques were employed to optimize the model and to achieve im
       <image src="https://user-images.githubusercontent.com/82583576/131261384-961bc799-9d10-4a61-b11c-5a9564598b67.png"
       </p>
       
-      
+ 4.
+        
+        
+        
+       ![image](https://user-images.githubusercontent.com/82583576/131281069-eff41955-1e2f-4485-ba57-66b12b076253.png)
+
+        
+        
+        
+        
 
 ## Summary
 
