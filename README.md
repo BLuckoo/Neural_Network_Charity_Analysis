@@ -1,6 +1,6 @@
 # Neural Network Charity Analysis
 
-Using Machine Learning and Neural Networks models with the dataset provided to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
+This analysis uses Machine Learning and Neural Networks models utilizing the dataset provided to create binary classifier that can predict if applicants will be successful if funded by Alphabet Soup.
 
 ## Analysis Overview
 
@@ -16,10 +16,10 @@ The following methods were used for the analysis:
 
 **Data Preprocessing**
 
-- The columns EIN and NAME are identification information and have been removed from the input data.
-- The column IS_SUCCESSFUL contains binary data refering to wether or not the charity donation was used effectively. This variable is then considered as the target for the deep learning neural network.
-- The following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are the features for the model.
-- Encoding of the categorical variables, spliting into training and testing datasets and standardization have been applied to the features.
+- Columns EIN and NAME are identification information and have been removed from the input data.
+- Column IS_SUCCESSFUL contains binary data that refers to whether the charitable donation was used effectively. This variable is then considered as the target for the deep learning neural network.
+- The following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are features used for the model.
+- Encoding of the categorical variables, splitting into training and testing datasets and standardization have been applied to the features.
 
 **Compiling, Training, and Evaluating the Model**
 
@@ -30,7 +30,7 @@ The following methods were used for the analysis:
 <image src="https://user-images.githubusercontent.com/82583576/131258310-e521342e-4bbb-4c34-8368-cafad16a63f6.png"
 </p>
 
-- This deep-learning neural network model is made of two hidden layers with 80 and 30 neurons respectively.
+- This deep-learning neural network model is comprised of two hidden layers with 80 and 30 neurons respectively.
   
  <p align="center"> 
  <image src="https://user-images.githubusercontent.com/82583576/131258458-dc2a889a-85ed-4d38-b6f3-4b4f198487a8.png"
@@ -39,12 +39,12 @@ The following methods were used for the analysis:
   
   
 - The output layer is made of a unique neuron as it is a binary classification.
-- To speed up the training process, the activation function ReLU is used for the hidden layers. As the output is a binary classification, Sigmoid is used on the output layer.
+- To speed up the training process, the activation function ReLU is used for the hidden layers. As the output is a binary classification, Sigmoid is applied on the output layer.
 - For the compilation, the optimizer is ***"adam"*** and the loss function is ***"binary_crossentropy"***.
 - The model accuracy target is at least 75%. 
   However, the model's highest accuracy reached is at 70.44% with a loss of 1.30.
    
-  This is not a satisfying performance to help predict the outcome of the charity donations.
+  This is not a satisfactory performance in predicting the outcome of the charitable donations.
  
   <p align="center"> 
   <image src="https://user-images.githubusercontent.com/82583576/131259434-fe4d491e-a632-4fa0-876a-18a6be29a856.png"
@@ -65,9 +65,9 @@ The following methods were used for the analysis:
 
 To increase the performance of the model:
 
-- Bucketing was appied to the feature ASK_AMT and organized the different values by intervals.
+- Bucketing was applied to the feature ASK_AMT and as well as organized the different values by intervals.
     
-Three different techniques were used to optimize the model and get better accuracy.
+Three different techniques were employed to optimize the model and to achieve improved accuracy.
 
 1.  Increased the number of hidden layers from two to four.
     This attempt brought down the accuracy to 69.48% and the loss increased to 12.21
@@ -85,7 +85,7 @@ Three different techniques were used to optimize the model and get better accura
     </p>
      
     
-2.  Kept the original number of hidden layers to two, but changed activation function used for the hidden input layers to the "sigmoid" function.
+2.  Retained the original number of hidden layers to two, but changed activation function used for the hidden input layers to the "sigmoid" function.
     This model resulted in a loss of 0.637 and an accuracy of 69.78%.
       
     <p align="center">
@@ -119,8 +119,9 @@ Three different techniques were used to optimize the model and get better accura
 
 ## Summary
 
-The deep learning neural network model did not reach the target of 75% accuracy. The performance of this model does not meet the requirements.
+The deep learning neural network model did not reach the target of 75% accuracy. The performance of this model therefore does not meet the requirements as laid out.
 
-This is a binary classification situation. A supervised machine learning model, such as the Random Forest Classifier to combine a multitude of decision trees to generate a classified output. These results can then be compared to the Deep Learning model to evaluate which model is better for the analysis.
-
-
+This is a binary classification situation. It is recommended that a supervised machine learning model, such as the Random Forest Classifier be used to combine a multitude of decision trees. This will allow the generation of classified ouput. The result can then be compared to the Deep Learning model to evaluate its performance and whether it meets the client's requirements.
+        
+       
+       
