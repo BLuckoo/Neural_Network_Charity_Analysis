@@ -115,12 +115,13 @@ Three different techniques were employed to optimize the model and to achieve im
       <image src="https://user-images.githubusercontent.com/82583576/131261384-961bc799-9d10-4a61-b11c-5a9564598b67.png"
       </p>
       
- 4.
+ 4. In an attempt to get better results, this model uses 3 hidden layers and the "relu" activation function for the input layers.
+    Unfortuntaely the results were not satisfactory: the loss was at 10.97 and the accuracy at 59.98%.
         
         
-        
-       ![image](https://user-images.githubusercontent.com/82583576/131281069-eff41955-1e2f-4485-ba57-66b12b076253.png)
-
+      <p align="center">  
+      <image src="https://user-images.githubusercontent.com/82583576/131281069-eff41955-1e2f-4485-ba57-66b12b076253.png"
+      </p>
         
         ![image](https://user-images.githubusercontent.com/82583576/131281239-a2cfba77-f798-4a2c-9c69-38508699ef91.png)
 
