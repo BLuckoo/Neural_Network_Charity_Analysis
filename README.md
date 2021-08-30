@@ -115,7 +115,7 @@ Three different techniques were employed to optimize the model and to achieve im
       <image src="https://user-images.githubusercontent.com/82583576/131261384-961bc799-9d10-4a61-b11c-5a9564598b67.png"
       </p>
       
- 4. In an attempt to get better results, this model uses 3 hidden layers and the "relu" activation function for the input layers.
+ 4. In an attempt to get better results, a fourth model with 3 hidden layers and the "relu" activation function for the input layers was used.
     Unfortuntaely the results were not satisfactory: the loss was at 10.97 and the accuracy at 59.98%.
         
         
