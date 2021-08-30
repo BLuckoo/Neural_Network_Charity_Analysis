@@ -16,9 +16,9 @@ The following methods were used for the analysis:
 
 **Data Preprocessing**
 
-- Columns EIN and NAME are identification information and have been removed from the input data.
-- Column IS_SUCCESSFUL contains binary data that refers to whether the charitable donation was used effectively. This variable is then considered as the target for the deep learning neural network.
-- The following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are features used for the model.
+- Column IS_SUCCESSFUL contains binary data that refers to whether the charitable donation was used effectively.<br>***This variable is then considered as the target for the deep learning neural network.***</br>
+- ***The following columns APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT are features used for the model.***
+- ***Columns EIN and NAME are identification information and have been removed from the input data. They are neither targets nor features.***
 - Encoding of the categorical variables, splitting into training and testing datasets and standardization have been applied to the features.
 
 **Compiling, Training, and Evaluating the Model**
