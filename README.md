@@ -122,6 +122,8 @@ Three different techniques were employed to optimize the model and to achieve im
        ![image](https://user-images.githubusercontent.com/82583576/131281069-eff41955-1e2f-4485-ba57-66b12b076253.png)
 
         
+        ![image](https://user-images.githubusercontent.com/82583576/131281239-a2cfba77-f798-4a2c-9c69-38508699ef91.png)
+
         
         
         
